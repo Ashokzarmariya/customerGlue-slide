@@ -3,7 +3,7 @@ animation-name: slideAnimation;
 animation-duration: 3s;
 animation-iteration-count: 1;
 animation-fill-mode: forwards;
-animation-timing-function:ease-in-out ;
+/* animation-timing-function:ease-in-out ; */
 transition: all;
 display: block;
 
@@ -16,7 +16,7 @@ display: block;
 
   }
   to{
-bottom: 0px;
+bottom: 0vh;
 
   }
 }
@@ -28,5 +28,7 @@ display: none;
 .sheet{
 position: absolute;
 left: 33vw;
+z-index: 20;
+
 }
 /* absolute left-[33vw] transition-all duration-75 ${isOpen? "bottom-0":"top-[-100vh]"} */
