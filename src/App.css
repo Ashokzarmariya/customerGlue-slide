@@ -5,13 +5,14 @@ animation-iteration-count: 1;
 animation-fill-mode: forwards;
 /* animation-timing-function:ease-in-out ; */
 transition: all;
-display: block;
+
 
 }
 
 @keyframes slideAnimation {
   from{
     bottom: -50vh;
+    
 
 
   }
