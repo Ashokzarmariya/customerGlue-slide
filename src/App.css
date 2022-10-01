@@ -27,9 +27,7 @@ display: none;
 
 }
 .sheet{
-position: absolute;
-left: 33vw;
-z-index: 20;
+  @apply absolute left-[20vw] lg:left-[33vw] z-50
 
 }
 /* absolute left-[33vw] transition-all duration-75 ${isOpen? "bottom-0":"top-[-100vh]"} */
